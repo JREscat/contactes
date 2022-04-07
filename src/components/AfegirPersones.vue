@@ -1,50 +1,50 @@
 <template>
     <form>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Nom</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Nom</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.nom">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Cognoms</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Cognoms</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.cognoms">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Mòbil</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Mòbil</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.mobil">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Telèfon</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Telèfon</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.telefon">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Correu</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Correu</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.correu">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Empresa</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Empresa</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.empresa">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Càrrec</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Càrrec</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.carrec">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Referencia</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Referencia</label>
+            <div class="col-10">
             <select class="form-select" v-model="dades.referencia">
                 <option>Adiexa</option>
                 <option>Aranzana</option>
@@ -62,20 +62,20 @@
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">NIF</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">NIF</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.nif">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Fax</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Fax</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.fax">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Notes</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Notes</label>
+            <div class="col-10">
             <textarea class="form-control" v-model="dades.notes"></textarea>
             </div>
         </div>

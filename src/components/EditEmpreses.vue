@@ -12,38 +12,38 @@
     </div>
     <form>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Empresa</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Empresa</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.empresa" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Telèfon</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Telèfon</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.telefon" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Fax</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Fax</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.fax" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Correu</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Correu</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.mail" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Adreça</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Adreça</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.adreca" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Referencia</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Referencia</label>
+            <div class="col-10">
             <select class="form-select" v-model="dades.referencia" :disabled="!esPotEditar">
                 <option>Adiexa</option>
                 <option>Aranzana</option>
@@ -61,14 +61,14 @@
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">CIF</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">CIF</label>
+            <div class="col-10">
             <input type="text" class="form-control" v-model="dades.cif" :disabled="!esPotEditar">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-2 col-form-label">Notes</label>
-            <div class="col-sm-10">
+            <label class="col-2 col-form-label">Notes</label>
+            <div class="col-10">
             <textarea class="form-control" v-model="dades.notes" :disabled="!esPotEditar"></textarea>
             </div>
         </div>
