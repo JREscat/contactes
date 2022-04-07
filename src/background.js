@@ -67,9 +67,9 @@ async function createWindow() {
   win.show();
 }
 
-if (!isDevelopment) {
+/*if (!isDevelopment) {
   Menu.setApplicationMenu(null)
-}
+}*/
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
